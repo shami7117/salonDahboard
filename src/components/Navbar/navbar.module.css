@@ -1,0 +1,33 @@
+.menuItem {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  color: #808285;
+  font-family: 'Lato', sans-serif;
+  margin-left: 24px;
+}
+
+.menu {
+  display: flex;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .menuItem {
+    font-size: 12px;
+    line-height: 10px;
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .menu{
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+  }
+}

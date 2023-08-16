@@ -1,0 +1,22 @@
+.introHead {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  opacity: 1;
+}
+
+
+@media (max-width: 750px) {
+  .introHead {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .introHead {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

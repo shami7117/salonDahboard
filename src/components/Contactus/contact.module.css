@@ -1,0 +1,30 @@
+.introHead {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  color: #F26A5A;
+  opacity: 1;
+  margin-top: 106px;
+}
+
+.formItems {
+  width: 252px;
+}
+
+@media (max-width: 750px) {
+  .introHead {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .introHead {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .formItems {
+    width: 310px;
+  }
+}

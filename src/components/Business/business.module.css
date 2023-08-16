@@ -1,0 +1,151 @@
+.discover {
+  width: 400px;
+  height: 478px;
+  margin-right: 130px;
+}
+
+.formItems {
+  width: 190px;
+}
+
+.secondHeading {
+  font-size: 30px; 
+  line-height: 50px; 
+  font-family: 'Lato', sans-serif; 
+  font-weight: 700; 
+  color: #87898C
+}
+.listings {
+  margin-right: 44px;
+}
+
+.spa {
+  margin-left: 8px;
+}
+
+.introBox {
+  height: 588px;
+}
+
+.introHead {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  opacity: 1;
+}
+
+.intro {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.introHeadings {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  color: #808285;
+}
+
+.introText {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+  color: #707070;
+}
+
+.review {
+  margin-top: 0px;
+}
+
+.mobilestars {
+  display: none;
+}
+
+.text {
+  margin-left: 80px;
+}
+
+
+@media (max-width: 1030px) {
+  .review {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .discover {
+    margin: auto;
+  }
+  .intro {
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .introBox {
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .introHead {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 660px) {
+  .reviews {
+    width: 80%;
+  }
+  .secondHeading {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .discover {
+    width: 350px;
+  }
+  .formItems {
+    width: 190px;
+  }
+  .listings {
+    margin-right: 8px;
+  }
+  .spa {
+    margin-left: 0px;
+  }
+  .introHead {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .introHeadings {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .introText {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .others {
+    display: none;
+  }
+  .mobilestars {
+    display: block;
+  }
+  .stars {
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  .text {
+    margin-left: 0px;
+  }
+}

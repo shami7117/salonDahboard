@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Quicksand&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /* font-family: 'Lato', sans-serif;   */
+}
+
+li > ul {
+  transform: translatex(100%) scale(0);
+}
+li:hover > ul {
+  transform: translatex(101%) scale(1);
+}
+li > button svg {
+  transform: rotate(-90deg);
+}
+li:hover > button svg {
+  transform: rotate(-270deg);
+}
+
+.group:hover .group-hover\:scale-100 {
+  transform: scale(1);
+}
+.group:hover .group-hover\:-rotate-180 {
+  transform: rotate(180deg);
+}
+.scale-0 {
+  transform: scale(0);
+}
+.min-w-32 {
+  min-width: 8rem;
+}
+input[type="radio"] {
+  accent-color: #f26a5a;
+}
+.logo-img path {
+  fill: #000000;
+}
+input {
+  outline: none;
+}
+
+.styled-select select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-color: #f26a5a !important;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  /* border-radius: 4px; */
+  /* margin-right: 2px; */
+  opacity: 1;
+  filter: invert(0.6);
+  width: 20px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
+.input-container input {
+  border: 2px;
+  box-sizing: border-box;
+  outline: 0;
+  padding: 0.75rem;
+  position: relative;
+  width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+/* 
+input:invalid {
+  border-color: red;
+} */
+
+/* Style the default validation message */
+input:invalid::after {
+  content: "Required field!";
+  color: red;
+  font-size: 0.8em;
+  position: absolute;
+  padding: 2px;
+}
+
+/* Style the validation message for specific input types */
+input[type="email"]:invalid::after {
+  content: "Please enter a valid email address." !important;
+}
+
+/* Additional styles for emphasis */
+input:focus {
+  border-color: blue;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  /* font-family: la; */
+}
+
+.react-tel-input {
+  height: 50px !important;
+  /* border: none !important; */
+  padding-left: 0% !important;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 50px !important;
+}
+
+input[type=file], /* FF, IE7+, chrome (except button) */
+input[type=file]::-webkit-file-upload-button {
+  /* chromes and blink button */
+  cursor: pointer;
+}

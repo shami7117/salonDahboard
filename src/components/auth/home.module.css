@@ -1,0 +1,210 @@
+.discover {
+  width: 466px;
+  height: auto;
+  margin-right: 208px;
+}
+
+.formItems {
+  width: 360px;
+}
+
+.listings {
+  margin-right: 44px;
+}
+
+.spa {
+  margin-left: 8px;
+}
+
+.introBox {
+  height: 588px;
+}
+
+.introHead {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+  color: #f26a5a;
+  opacity: 1;
+}
+
+.intro {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.introHeadings {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  color: #808285;
+}
+
+.introText {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  color: #707070;
+}
+
+.review {
+  margin-top: 0px;
+}
+
+.mobilestars {
+  display: none;
+}
+
+.text {
+  margin-left: 80px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  width: 329px;
+  height: 66px;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  width: 137px;
+  height: 66px;
+  cursor: pointer;
+}
+
+.authContainer {
+  display: flex;
+}
+
+.create {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.radioHeader {
+  display: flex;
+  justify-content: flex-start;
+  /* margin-left: 52px;  */
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-top: 34px;
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 700;
+  color: #f26a5a;
+}
+
+@media (max-width: 1030px) {
+  .review {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .discover {
+    margin: auto;
+  }
+  .intro {
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .introBox {
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .introHead {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .reviews {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .discover {
+    width: 350px;
+  }
+  .formItems {
+    width: 310px;
+  }
+  .listings {
+    margin-right: 8px;
+  }
+  .spa {
+    margin-left: 0px;
+  }
+  .introHead {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .introHeadings {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .introText {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .others {
+    display: none;
+  }
+  .mobilestars {
+    display: block;
+  }
+  .stars {
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  .text {
+    margin-left: 0px;
+  }
+  .authContainer {
+    width: 350px;
+  }
+  .account {
+    width: 245px;
+    height: 66px;
+  }
+
+  .login {
+    width: 105px;
+    height: 66px;
+  }
+
+  .radioHeader {
+    /* margin-left: 22px; */
+    margin-top: 10px;
+  }
+
+  .forgot {
+    margin-right: 23px;
+  }
+}
